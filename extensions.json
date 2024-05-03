@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "editorconfig.editorconfig", // sensable defaults for all languages
+        "streetsidesoftware.code-spell-checker", // spell checking
+        "rifi2k.format-html-in-php", // to correctly format HTML in PHP files, otherwise it will slam it all to the left gutter
+        "xdebug.php-debug", // to debug PHP
+        "bmewburn.vscode-intelephense-client", // PHP intellisense
+        "valeryanm.vscode-phpsab", // PHP code beautifier and linter
+        "mrmlnc.vscode-scss", // SCSS intellisense
+        "adamwalzer.scss-lint", // SCSS linter
+        "stylelint.vscode-stylelint" // CSS linter
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "[css]": {
+        "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+    },
+    "css.validate": false, /* rely on stylelint node module and .stylelintrc.json instead */
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "eslint.options": {
+        "overrideConfigFile": "./wp-content/plugins/oodle-custom-elements-plugin/eslint.config.js"
+    },
+    "eslint.validate": [
+        "javascript"
+    ],
+    "files.associations": {
+        "*.goodies-sync": "plaintext",
+        "*.js.php": "javascript",
+        "css.twig": "css"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.ignoreLimitWarning": true,
+    "php.suggest.basic": true,
+    "php.validate.enable": true,
+    "php.validate.run": "onSave",
+    "phpsab.autoRulesetSearch": false,
+    "phpsab.executablePathCBF": "./wp-content/plugins/oodle-custom-elements-plugin/vendor/bin/phpcbf",
+    "phpsab.executablePathCS": "./wp-content/plugins/oodle-custom-elements-plugin/vendor/bin/phpcs",
+    "phpsab.snifferShowSources": true,
+    "phpsab.standard": "./wp-content/plugins/oodle-custom-elements-plugin/phpcs.xml",
+    "stylelint.configFile": "./wp-content/plugins/oodle-custom-elements-plugin/.stylelintrc.json"
+}
